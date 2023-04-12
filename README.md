@@ -1,26 +1,26 @@
-# dalle-e  - Generate Images whit openAI API
+# dalle-e - Generate Images with OpenAI API
 
-WebApp - Generador de imagenes usando la API de openAI
+Web application that generates images using OpenAI API.
 
-##### tecnologias usadas
+## Technologies Used
 
-###### FrontEnd
-1. Html
-2. Css
-3. js
+### Frontend
+1. HTML
+2. CSS
+3. JavaScript
 4. ReactJS
 
-###### Backend
+### Backend
 1. NodeJS
 2. MongoDB-Atlas
 
-###### Arquitectura
-1. Modelo de capas
+### Architecture
+1. Layered architecture
 
+### Deployment
+1. Frontend - Vercel
+2. Backend - Render
 
-- https://dalle-e-phi.vercel.app/
+Check it out at: https://dalle-e-phi.vercel.app/
 
-------------
-
-
-[![](https://i.imgur.com/bXTlem2.png)](https://dalle-e-phi.vercel.app/)
+![dalle-e](https://i.imgur.com/bXTlem2.png)
