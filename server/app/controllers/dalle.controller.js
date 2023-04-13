@@ -29,6 +29,6 @@ export const postDalleController = async (req, res) => {
     const result = await postDalleServices(req)
     res.status(200).json({ message: 'sucess', result })
   } catch (error) {
-    return res.status(500).json({ message: 'Error al procesar la imagen debido a un problema con la API de OpenAI. Por favor, inténtalo de nuevo más tarde.' })
+    return res.status(500).json({ message: 'Billing hard limit has been reached' })
   }
 }
